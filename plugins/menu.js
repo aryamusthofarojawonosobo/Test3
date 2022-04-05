@@ -224,15 +224,16 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `┏━━〔 𝐒𝐓𝐀𝐓𝐔𝐒 〕━⬣
-┃⬡ 𝘼𝙠𝙩𝙞𝙛 𝙎𝙚𝙡𝙖𝙢𝙖 _*${uptime}*_
-┃⬡ 𝘽𝙖𝙩𝙚𝙧𝙖𝙞 _*${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}*_
-┃⬡ _*${Object.keys(global.db.data.users).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖
-┃⬡ _*${totaljadibot.length}*_ 𝙅𝙖𝙙𝙞𝙗𝙤𝙩
-┃⬡ _*${conn.blocklist.length}*_ 𝙏𝙚𝙧𝙗𝙡𝙤𝙘𝙠
-┃⬡ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ 𝘾𝙝𝙖𝙩 𝙩𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
-┃⬡ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖 𝙏𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
-┗━━━━━━━━⬣`.trim(),
+                        "description": `
+┌――〔 *${package. name}* 〕
+├⏰ Aktif selama ${uptime}
+├⚡ Baterai [${conn. baterai != tidak terdefinisi ? '${conn. baterai. value}%] ${conn. baterai. hidup? 'Pengisian 🔌 ' : ''}' : 'tidak diketahui'}
+├💱 limit tersisa ${limit}
+├────><+><────
+├🏰 Level ${level} [Xp: ${exp}]
+├🔱 Pangkat ${role}
+├📁 Database ${rtotalreg} dari ${totalreg}
+└――——————————`.trim(),
                         "footerText": "Hi kk >‿‿<",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",

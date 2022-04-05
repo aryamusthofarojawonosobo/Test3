@@ -2,20 +2,22 @@ let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
-╭═══ 〔 SEWA BOT 〕 ════
-├⬡ 𝟏 ᗰIᑎᘜᘜᑌ
-├⬡ 2 ᗰIᑎᘜᘜᑌ
-├⬡ 3 ᗰIᑎᘜᘜᑌ
-├⬡ 1 ᗷᑌᒪᗩᑎ
-└═══════════════
-𝗦𝗶𝗹𝗮𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
-╭═══════════════════════
-║╭──❉ 〔 𝐕𝐈𝐀 𝐓𝐎𝐏𝐔𝐏 〕 ❉──────
-║│➸ *Digi* : 60149431385
-║│➸ *Umobile*: 60189830350
-║│➸ *Owner*: wa.me/6287892711054
-║╰─────────────────────
-╰═══════════════════════`.trim()
+╭═══ 〘 SEWA 〙
+║ ┅ ๑————————————๑
+║┊ ⌲ Sewa = 5k/grup (1 minggu)
+║┊ ⌲ Sewa = 15k/grup (1 bulan)
+║┊ ⌲ Sewa = 25k/grup (3 bulan)
+╰═ ┅ ═══════
+                
+༅ KEUNTUNGAN
+                
+✧ Bebas Add bot ke grup
+✧ bisa jaga grup kamu
+✧ Bisa nyuruh Buka/Tutup Group
+✧ bisa kick atau add seseorang
+✧ Ada fitur khusus admin
+✧ Ada fitur setting grup
+✧ Antilink, antispam dll`.trim()
     const button = {
         buttonText: 'List Harga',
         description: kamisato,

@@ -28,17 +28,23 @@ handler.all = async function (m, { isBlocked }) {
 
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
-        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Minggu* :      *Rm 5.00*
-╠➥ *2 Minggu* : *Rm 10.00*
-╠➥ *3 Minggu* :   *Rm 15.00*
-╠➥ *1 Bulan* :        *Rm 20.00*
-║
-╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
-╠➥ TOPUP/PIN
-║- 60149431385 (Digi)
-║- 60189830350 (Umobile)
-╠═〘 Hyzer 〙 ═`.trim(), '©shirobotz', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
+        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `
+╭═══ 〘 SEWA 〙
+║ ┅ ๑————————————๑
+║┊ ⌲ Sewa = 5k/grup (1 minggu)
+║┊ ⌲ Sewa = 15k/grup (1 bulan)
+║┊ ⌲ Sewa = 25k/grup (3 bulan)
+╰═ ┅ ═══════
+                
+༅ KEUNTUNGAN
+                
+✧ Bebas Add bot ke grup
+✧ bisa jaga grup kamu
+✧ Bisa nyuruh Buka/Tutup Group
+✧ bisa kick atau add seseorang
+✧ Ada fitur khusus admin
+✧ Ada fitur setting grup
+✧ Antilink, antispam dll`.trim(), '©shirobotz', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
 }
 
     // salam
@@ -68,7 +74,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Bot by Hyzer. `).catch(_ => _)
+        await this.setStatus(`Saya Botz 🤖 || ⏰ Aktif selama ${uptime} || Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}.`).catch(_ => _)
         setting.status = new Date() * 1
     }
 

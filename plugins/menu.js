@@ -234,7 +234,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ├🔱 Pangkat ${role}
 ├📁 Database ${rtotalreg} dari ${totalreg}
 └――——————————`.trim(),
-                        "footerText": "Hi kk >‿‿<",
+                        "footerText": "",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [

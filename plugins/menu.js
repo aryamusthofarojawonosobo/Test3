@@ -227,7 +227,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "description": `
 ┌――〔 *${package. name}* 〕
 ├⏰ Aktif selama ${uptime}
-├⚡ Baterai [${conn. baterai != tidak terdefinisi ? '${conn. baterai. value}%] ${conn. baterai. hidup? 'Pengisian 🔌 ' : ''}' : 'tidak diketahui'}
+├⚡ Baterai [${conn.battery != undefined ? `${conn.battery.value}%] ${conn.battery.live ? 'Pengisian 🔌' : ''}` : 'tidak diketahui'}
 ├💱 limit tersisa ${limit}
 ├────><+><────
 ├🏰 Level ${level} [Xp: ${exp}]

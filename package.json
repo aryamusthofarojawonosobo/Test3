@@ -1,7 +1,7 @@
 {
-  "name": "Botz Lyn",
-  "version": "1.5.0",
-  "description": "Official Bot Wa",
+  "name": "Botz",
+  "version": "1.0.0",
+  "description": "Whatsapp Botz",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -35,7 +35,7 @@
     "@adiwajshing/baileys": "github:melcanz/Baileys",
     "awesome-phonenumber": "^2.67.0",
     "axios": "^0.24.0",
-    "brainly-scraper-v2": "^1.1.2",
+    "brainly-scraper-v2": "^2.0.4-1",
     "canvacord": "^5.2.3",
     "cfonts": "^2.9.3",
     "chalk": "^4.1.1",

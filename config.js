@@ -14,8 +14,8 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.linkGC = ['https://chat.whatsapp.com/GNOimnXOQoR10oOjCsadXZ','']
-global.owner = ['6285795035419','6289688069444']
-global.mods = ['6285795035419'] // Moderator
+global.owner = ['6285795035419','6289688069444','6289518487462','6282121382600','6285795035418','6285775627141']
+global.mods = ['6285795035419','6289688069444'] // Moderator
 global.image = 'https://telegra.ph/file/0572e0fe0501890afc9b0.jpg'
 global.wait = '[Wait] Sedang di proses...'
 global.eror = '[Error] Terjadi kesalahan !\nSilahkan lapor ke owner'
@@ -58,7 +58,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'hehe'
-  var sticker_author = 'by ShiroBotz'
+  var sticker_author = 'by devbotmail'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -80,7 +80,7 @@ global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur
 global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
-global.watermark = '©botz' //change the watermark (beberapa harus manual)
+global.watermark = '©LordDevBotz' //change the watermark (beberapa harus manual)
 
 // Ubah saja
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'

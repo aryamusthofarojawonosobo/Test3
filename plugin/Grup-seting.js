@@ -1,10 +1,10 @@
 let { GroupSettingChange } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 	let isClose = {
-		'open': false,
-		'buka': false,
-		'on': false,
-		'1': false,
+		'open': true,
+		'buka': true,
+		'on': true,
+		'1': true,
 		'close': true,
 		'tutup': true,
 		'off': true,
@@ -23,10 +23,10 @@ contoh:
 handler.help = ['grup <buka/tutup>']
 handler.tags = ['group']
 handler.command = /^(gro?up|grub)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
+handler.owner = true
+handler.mods = true
+handler.premium = true
+handler.group = true
 handler.private = false
 handler.admin = true
 handler.botAdmin = true

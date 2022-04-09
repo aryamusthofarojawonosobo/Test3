@@ -10,5 +10,6 @@ let handler = async (m, { conn }) => {
   handler.user = true
   handler.owner = true
   handler.premium = true
+  handler.mods = true
   
   module.exports = handler

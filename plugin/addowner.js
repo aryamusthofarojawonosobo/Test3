@@ -18,5 +18,6 @@ handler.tags = ['owner']
 handler.command = /^(add|tambah|\+)owner$/i
 
 handler.rowner = true
+handler.premium = true
 
 module.exports = handler

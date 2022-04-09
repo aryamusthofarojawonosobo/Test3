@@ -7,5 +7,8 @@ let handler = async (m, { conn }) => {
   
   handler.group = true
   handler.botAdmin = true
+  handler.user = true
+  handler.owner = true
+  handler.premium = true
   
   module.exports = handler

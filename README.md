@@ -1,11 +1,11 @@
-<h1 align="center">AzBotz</h1>
+<h1 align="center">LordDevBotz</h1>
 
 
 <p align="center">
   <a href="https://ibb.co/QQX130c"><img src="https://i.ibb.co/TBVZ0YH/thumb.jpg" alt="Velgrynd"></a>
 </p>
 
-# AzBotz
+# BotxLord
 Simple Rpg WhatsApp Bot
 
 <a href="https://github.com/Dawnfrosty/Mike-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dawnfrosty/Mike-bot?label=Forks&color=blue&style=flat-square"></a>
@@ -16,12 +16,12 @@ Simple Rpg WhatsApp Bot
 <a href="https://github.com/Dawnfrosty/Mike-bot/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Dawnfrosty/Mike-bot?label=PullRequest&color=success&style=flat-square"></a>
 
 ## Join Group Diskusi
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GNOimnXOQoR10oOjCsadXZ) 
+[![Grup WhatsApp Botz](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/E7R8oYD1AiKFVTk83Qc0sd)
 **NO BOT**
 
 ## Deploy to heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AzRyCb/V3)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devbotmail/Test)
 
 Tutorial YouTube
 
@@ -43,8 +43,8 @@ $ pkg install git -y
 & pkg install libwebp 
 & apt install ffmpeg -y
 & apt install imagemagick -y
-& git clone https://github.com/AzRyCb/AzBotz
-& cd (nama file)
+& git clone https://github.com/devbotmail/Test
+& cd Test
 & npm install
 & npm update
 ```
@@ -77,8 +77,8 @@ If successful, it will give you a message like:
 ```
 
 ```bash
-git clone https://github.com/AzRyCb/AzBotz
-cd (nama folder) 
+git clone https://github.com/devbotmail/Test
+cd Test
 npm install
 npm update
 ```
@@ -89,13 +89,13 @@ node .
 ```
 
 ---------
-## AzRyCb stat
-![Ra Github stat](https://github-readme-stats.vercel.app/api?username=AzRyCb&theme=midnight-purple&show_icons=true) 
+## devbotmail stat
+![Ra Github stat](https://github-readme-stats.vercel.app/api?username=devbotmail&theme=midnight-purple&show_icons=true) 
 
-![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=AzRyCb&theme=monokai)
+![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=devbotmail&theme=monokai)
 
 
 # My Sosial 
-- [Group ](https://chat.whatsapp.com/GNOimnXOQoR10oOjCsadXZ) 
+- [Group Botz ](https://chat.whatsapp.com/E7R8oYD1AiKFVTk83Qc0sd)
 - [Whatsapp ](https://wa.me/6285795035419)
 

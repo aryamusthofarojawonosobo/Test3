@@ -21,5 +21,7 @@ handler.tags = ['owner']
 handler.command = /^(add|tambah|\+)prem$/i
 
 handler.owner = true
+handler.premium = true
+handler.jadibot = true
 
 module.exports = handler

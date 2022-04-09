@@ -72,6 +72,7 @@ handler.tags = ['jadibot']
 handler.command = /^jadibot$/i
 handler.premium = false
 handler.private = true
+handler.group = true
 
 handler.limit = 6
 

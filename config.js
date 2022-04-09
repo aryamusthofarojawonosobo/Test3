@@ -13,6 +13,7 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
+// NOTE: OWNER MAUPUN LINK GC JANGAN DI HAPUS, HANYA BOLEH DI TAMBAHKAN!
 global.linkGC = ['https://chat.whatsapp.com/GNOimnXOQoR10oOjCsadXZ','']
 global.owner = ['6285795035419','6289688069444','6289518487462','6282121382600','6285795035418','6285775627141']
 global.mods = ['6285795035419','6289688069444'] // Moderator
@@ -92,7 +93,7 @@ global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
 global.multiplier = 60 // The higher, The harder levelup
 
 //*****************PEMBATAS*********************
-// JANGAN DI GANTI NTAR KLO GABISA JAN TANYA GW
+// JANGAN DI GANTI NTAR KLO GABISA JAN LANGSUNG TANYA KE GW
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {

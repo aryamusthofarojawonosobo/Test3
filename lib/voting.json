@@ -1,0 +1,42 @@
+const  fs  =  membutuhkan ( 'fs' ) ;
+ pemungutan suara  const =  JSON . parse ( fs . readFileSync ( './lib/voting.json' ) )
+
+const  sleep  =  async  ( ms )  =>  {
+    return  new  Promise ( resolve  =>  setTimeout ( resolve ,  ms ) ) ;
+}
+
+const  delVote  =  ( _id )  =>  {
+	pemungutan suara . sambungan ( _id , 0 )
+    fs . writeFileSync ( `./lib/voting.json` ,  JSON . stringify ( voting ) )
+    fs . batalkan tautanSync ( `./lib/vote/ ${ _id } .json` )
+    fs . batalkan tautanSync ( `./lib/ ${ _id } .json` )
+}
+
+const  addVote  =  async ( _id , _value1 , _value2 , _value3 , balasan )  =>  {
+	pemungutan suara . tekan ( _id )
+    fs . writeFileSync ( `./lib/ ${ _id } .json` , '[]' )
+    fs . writeFileSync ( `./lib/vote/ ${ _id } .json` , '[]' )
+    fs . writeFileSync ( './lib/voting.json' ,  JSON . stringify ( voting ) ) 
+    menunggu  tidur ( 2000 )
+    biarkan  suara  =  JSON . parse ( fs . readFileSync ( `./lib/vote/ ${ _id } .json` ) )  
+    suara . mendorong ( {
+    alasan : _nilai1 ? _nilai1 : '-' ,
+    suara : _value2 . trim ( )  + '@s.whatsapp.net' ,
+    durasi : _nilai3 
+    } )  
+    fs . writeFileSync ( `./lib/vote/ ${ _id } .json` ,  JSON . stringify ( suara ) ) 
+    setTimeout ( fungsi asinkron  ( ) { 
+	biarkan  suara  =  JSON . parse ( fs . readFileSync ( `./lib/ ${ _id } .json` ) )
+    biarkan  tru  =  suara . filter ( a  =>  a . voting  ==  '✅' )
+    biarkan  fals  =  suara . filter ( a  =>  a . voting  ==  '❌' )
+    reply ( `*Waktu Habis*\n\n*Hasil Akhir*\n✅ = ${ tru . length } \n❌ = ${ fals . length } ` )
+    fs . batalkan tautanSync ( `./lib/vote/ ${ _id } .json` )
+    fs . batalkan tautanSync ( `./lib/ ${ _id } .json` )
+    fs . writeFileSync ( `./lib/voting.json` ,  JSON . stringify ( voting ) ) 
+    } ,  _nilai3  *  60  *  1000 ) ;
+}
+
+modul . ekspor  =  {
+	delVote ,
+	tambahkan Suara ,
+}

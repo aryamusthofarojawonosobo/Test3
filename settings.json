@@ -1,0 +1,21 @@
+{
+    "self_mode": false,
+	"autobio": false,
+	"msg_connected": true,
+	"user_register": true,
+	"anti_delete" : false,
+	"anticall": true,
+	"auto_welcome_msg": true,
+	"auto_leave_msg": true,
+	"prefix": ".",
+	"language":"ind",
+	"ownerNumberr": "6289518487462","6285795035418","6285795035419","6289688069444",
+	"ownername": "TheBotzOffline","TheAzBotz","AzOwner","LordDeveloperSupport
+	"botname":"LordBotz",
+	"thumb":"thumbnail_1.jpg",
+	"thumbnail":"thumbnail_2_1.jpg",
+	"fakethumb":"thumbnail_1.jpg", 
+	"donasi":"donasi.jpg",
+	"captionpay":"Scan untuk melakukan pembayaran",
+	"fake": " 「  LordBotz  」\nCreated By, my github: devbotmail"
+}
